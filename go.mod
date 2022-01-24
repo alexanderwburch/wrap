@@ -1,4 +1,4 @@
-module github.com/vdparikh/wrap
+module github.com/alexanderwburch/wrap
 
 go 1.12
 
