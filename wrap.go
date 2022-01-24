@@ -6,9 +6,8 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"strings"
-
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 func formatAPIResponse(statusCode int, headers http.Header, responseData string) (events.APIGatewayProxyResponse, error) {
